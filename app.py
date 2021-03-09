@@ -110,7 +110,7 @@ if __name__ == '__main__':
         selected_company)]
 
     # Header
-    st.header('Display Companies in Selected Sector')
+    st.header('Companies in Selected Sector')
     st.write('Data Dimension: '+str(df_selected_sector.shape[0])+' rows and '+str(
         df_selected_sector.shape[1])+' columns')
 
