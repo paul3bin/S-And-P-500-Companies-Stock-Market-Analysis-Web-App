@@ -82,7 +82,7 @@ if __name__ == '__main__':
 
     st.set_option('deprecation.showPyplotGlobalUse', False)
 
-    st.title('S&P 500 Stock Market Analysis Web-App')
+    st.title('S&P 500 Stock Market Analysis')
     st.sidebar.header('User Input Features')
 
     df = get_SnP_data()
