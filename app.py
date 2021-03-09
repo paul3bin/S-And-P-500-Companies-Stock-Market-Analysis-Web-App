@@ -5,6 +5,8 @@ import yfinance as yf
 from datetime import date
 from pandas_datareader import DataReader
 
+st.set_page_config(page_title='S&P500 Stock Market Analysis')
+
 
 @st.cache
 def get_SnP_data():
